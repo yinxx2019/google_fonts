@@ -21,14 +21,14 @@ var i;
 // list
 function listView() {
   for (i = 0; i < fonts.length; i++) {
-    fonts[i].style.width = "100%";
+    fonts[i].style.flex = "1000px";
   }
 }
   
   // grid
 function gridView() {
   for (i = 0; i < fonts.length; i++) {
-    fonts[i].style.width = "22%";
+    fonts[i].style.flex = "240px";
   }
 }
 
