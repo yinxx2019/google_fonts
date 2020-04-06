@@ -1,0 +1,7 @@
+body, button, input {
+    background-color: white;
+}
+
+h1, h2, h3, p, a, i {
+    color: black
+}

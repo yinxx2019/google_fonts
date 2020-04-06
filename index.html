@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Martel+Sans|Montserrat|Open+Sans|Roboto|Oswald|Source+Sans+Pro|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" id="dark_light" href="light.css">
+    <title>Chingu Solo Project</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <h1>Google Fonts</h1>
+      </div>
+      <div id="nav">
+        <ul id="navmenu">
+          <li><a href="">CATALOG</a></li>
+          <li><a href="">FEATURED</a></li>
+          <li><a href="">ARTICLES</a></li>
+          <li><a href="">ABOUT</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="input_space">
+      <div id="search_input">
+        <label for="search"></label>
+        <input type="text" name="search" id="search" placeholder = "Search Fonts">
+      </div>
+      <div id="type_input">
+        <label for="type"></label>
+        <input type="text" name="type" id="type" placeholder = "Type something">
+      </div>
+      <div id="size_input">
+        <label for="size"></label>
+        <select name="font_size" id="font_size" required>
+          <option value="20px">20px</option>
+          <option value="24px" selected>24px</option>
+          <option value="32px">32px</option>
+          <option value="36px">36px</option>
+        </select>
+      </div>
+      <div id="theme">
+        <button id="light"><span>&#9898;</span></button>
+        <button id="dark"><span>&#9899;</span></button>
+      </div>
+      <div id= "display">
+        <button id="list"><i class="fa fa-bars"></i></button>
+        <button id="grid"><i class="fa fa-th-large"></i></button>
+      </div>
+      <div id="refresh">
+        <button onClick="window.location.reload();"><span>&#128260;</span></button>
+      </div>
+    </div>
+    <div id="all_fonts">
+      <div id="roboto" class="fonts">
+        <h2>Roboto</h2>
+        <h3>Christian Robertson</h3>
+        <p class="text">This is my Chingu Solo Project</p>
+      </div>
+      <div id = "zhimang" class = "fonts">
+          <h2>Zhi Mang Xing</h2>
+          <h3>Wei Zhimang</h3>
+          <p class="text">This is my Chingu Solo Project</p>
+      </div>
+      <div id = "open_sans" class = "fonts">
+          <h2>Open Sans</h2>
+          <h3>Steve Matteson</h3>
+          <p class="text">This is my Chingu Solo Project</p>
+      </div>
+      <div id = "lato" class = "fonts">
+          <h2>Lato</h2>
+          <h3>Łukasz Dziedzic</h3>
+          <p class="text">This is my Chingu Solo Project</p>
+      </div>
+      <div id = "martel_sans" class = "fonts">
+          <h2>Martel Sans</h2>
+          <h3>Dan Reynolds</h3>
+          <p class="text">This is my Chingu Solo Project</p>
+      </div>
+      <div id = "montserrat" class = "fonts">
+          <h2>Montserrat</h2>
+          <h3>Julieta Ulanovsky</h3>
+          <p class="text">This is my Chingu Solo Project</p>
+      </div>
+      <div id = "oswald" class = "fonts">
+        <h2>Oswald</h2>
+        <h3>Vernon Adams</h3>
+        <p class="text">This is my Chingu Solo Project</p>
+      </div>
+      <div id = "source_sans_pro" class = "fonts">
+        <h2>Source Sans Pro</h2>
+        <h3>Paul D. Hunt</h3>
+        <p class="text">This is my Chingu Solo Project</p>
+      </div>
+    </div>
+    <footer>&copy;2019, Xiaoxia Yin, Chingu Solo Project</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
